@@ -1,13 +1,20 @@
-import illustrationImg from '../assets/images/illustration.svg';
-import logoImg from '../assets/images/logo.svg';
-
+//Importações React
 import { Link } from 'react-router-dom';
 
+//Hooks
+import { useAuth } from '../hooks/useAuth';
 
+//Estilos e imagens
+import illustrationImg from '../assets/images/illustration.svg';
+import logoImg from '../assets/images/logo.svg';
 import '../styles/auth.scss';
+
+//Componentes
 import { Button } from '../components/Button/Button';
 
 export function NewRoom() {
+   const { user} = useAuth();
+
    return (
       <div id="page-auth">
          <aside>

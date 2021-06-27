@@ -1,17 +1,22 @@
-import React from 'react';
+//Importações React
 import { BrowserRouter, Route } from 'react-router-dom';
+
+//Páginas
 import { Home } from './pages/Home';
 import { NewRoom } from './pages/NewRoom';
 
-
-import './services/firebase';
-
+//Contextos
+import { AuthContextProvider } from './contexts/AuthContext';
 
 function App() {
+  
+
   return (
     <BrowserRouter>
-      <Route path="/" exact component={Home} />
-      <Route path="/rooms/new" component={NewRoom} />
+      <AuthContextProvider>
+        <Route path="/" exact component={Home} />
+        <Route path="/rooms/new" component={NewRoom} />
+      </AuthContextProvider>
     </BrowserRouter>
   );
 }
