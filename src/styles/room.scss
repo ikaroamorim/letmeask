@@ -11,8 +11,17 @@
       justify-content: space-between;
       align-items    : center;
 
-      img {
+      > img {
          max-height: 45px;
+      }
+
+      .room-commands-container{
+         display: flex;
+         gap: 8px;
+      }
+
+      button{
+         height: 40px;
       }
    }
 
