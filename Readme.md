@@ -18,7 +18,7 @@
 
 <a name="descricao"></a>
 ## 💻 Descrição do Projeto 
-<p>LetmeAsk é uma aplicação desenvolvido durante a Next Level Week da Rocket Seat. Com ela é possível gerenciar as perguntas durante a exibição de conteúdo. Na elaboração do projeto foram utilizados conceitos avançados de React.js e foi também utilizado o Real Time Database do FireBase (Google). Site da aplicação em produção(https://ikarosilvapodcastrapi.herokuapp.com/episodes) e do Banco de Dados (https://letmeask-5e2b9.web.app/) </p>
+<p>LetmeAsk é uma aplicação desenvolvido durante a Next Level Week da Rocket Seat. Com ela é possível gerenciar as perguntas durante a exibição de conteúdo. Na elaboração do projeto foram utilizados conceitos avançados de React.js e foi também utilizado o Real Time Database do FireBase (Google). Site da aplicação em produção(https://letmeask-5e2b9.web.app/) e do Banco de Dados (https://letmeask-5e2b9-default-rtdb.firebaseio.com/) </p>
 
 <a name="status"></a>
 ## 🚧 Status do projeto
